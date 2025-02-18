@@ -242,19 +242,8 @@ header {
 @media screen and (max-width: 480px) {
 
   .navbar {
-    display: none;
+    flex-direction: column;
   }
-
-  #check:checked ~ .navbar {
-    display: block;
-    
-   }
-   .navbar a {
-    color: #fff;
-    padding: 1rem 1.5rem;
-    display: block;
-   }
-
   .main-article{
     flex-direction: column;
   }
